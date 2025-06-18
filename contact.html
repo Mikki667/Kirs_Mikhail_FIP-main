@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squeezit</title>
+    <link href="css/grid.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/contact.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+    <h1 class="hidden">Welcome to Squeezit Contact page!</h1>
+    <header>
+        <div class="grid-con">
+            <div class="col-span-full l-col-span-3 m-col-span-3 xl-col-span-3 logo-box">
+                <div class="img_div">
+                    <img src="images/main_logo.png" alt="Logo" class="logo-img">
+                </div>    
+            </div>
+            <div class="col-span-full l-col-span-5 l-col-start-8 m-col-span-5 m-col-start-8 xl-col-span-5 xl-col-start-8 nav-box">
+                <nav class="main-nav">
+                    <a href="home.html">Home</a>
+                    <a href="flavors.html">Flavors</a>
+                    <a href="history.html">History</a>
+                    <a href="#">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+      <div class="contact-content">
+        <form class="grid-con contact-box">
+          <h1 class="col-span-full m-col-span-12 l-col-span-12 xl-col-span-12">Contact Us</h1>
+          <label for="name" class="col-span-full m-col-span-12 l-col-span-6 xl-col-span-4">Name:</label>
+          <input type="text" id="name" name="name" required class="col-span-full m-col-span-12 l-col-span-12 xl-col-span-12" />
+          <label for="email" class="col-span-full m-col-span-12 l-col-span-6 xl-col-span-4">Email:</label>
+          <input type="email" id="email" name="email" required class="col-span-full m-col-span-12 l-col-span-12 xl-col-span-12" />
+          <label for="message" class="col-span-full m-col-span-12 l-col-span-12 xl-col-span-12">Message:</label>
+          <textarea id="message" name="message" rows="5" required class="col-span-full m-col-span-12 l-col-span-12 xl-col-span-12"></textarea>
+          <button type="submit" class="col-span-full m-col-span-12 l-col-span-12 xl-col-span-12">Send Message</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h2 class="hidden">footer</h2>
+        <section class="grid-con">
+          <div class="l-col-span-2 l-col-start-6 m-col-span-2 m-col-start-6 col-span-full xl-col-span-2 xl-col-start-6 footer_box">
+            <div class="footer_div">
+              <img src="images/main_logo.png" alt="Logo" class="footer-logo">
+            </div> 
+          </div>
+        </section>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

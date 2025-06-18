@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #95d90c; 
+  padding: 40px 0;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-box {
+  background-color: #9b00ff;
+  border-radius: 50px;
+}
+
+.logo-img {
+  width: 120px;
+  padding: 10px 0 10px 0;
+}
+
+.nav-box {
+  background-color: #9b00ff; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+footer {
+    background-color: #95d90c;
+    padding: 10px;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_box {
+  background-color: #9b00ff;
+  border-radius: 50px;
+}
+
+.footer-logo {
+  width: 120px;
+  padding: 10px 0 10px 0;
+}
+
+#Welcome h2 {
+    padding: 20px;
+    color: #9b00ff;
+    background-color: #ffffff;
+    border: #95d90c 5px solid;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.poster2_img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#poster2_img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#poster2_img2 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main_posters {
+    padding: 40px;
+}
+
+.brand_info h2 {
+    text-align: center;
+    color: #9b00ff;
+    font-size: 30px;
+}
+
+.brand_info p {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #9b00ff;
+    border-radius: 50px;
+    border: #95d90c 5px solid;
+    padding: 20px;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="grape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.69 319.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8952a1;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        fill: #703494;
+      }
+
+      .cls-4 {
+        fill: #72bf44;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="grapestick">
+    <path id="stick" class="cls-2" d="M101.45,79.39S44.93,42.83,55.94,29.39c17.53-21.4,20.03-16.39,20.03-16.39l25.48,66.4Z"/>
+    <ellipse id="shadow" class="cls-5" cx="66.03" cy="41.14" rx="3.19" ry="10.72" transform="translate(-11.51 34.86) rotate(-27.3)"/>
+  </g>
+  <g id="grapeleaf">
+    <path class="cls-4" d="M82.57,45.1c-3.69-10.89,10.58-27,12.2-28.68,5.81-6,31.07-21.02,30.09-14.38-1.27,8.51-1,21.95-8.59,29.62-10.1,10.2-23.62,9.82-29.62,14.29-2.3,1.71-3.6.58-4.09-.84Z"/>
+    <path class="cls-4" d="M85.63,41.14S123.42,13.95,120.7,6.12"/>
+    <path class="cls-4" d="M91.69,24.33c2.65-2.72,3.25,9.77,3.25,9.77"/>
+    <path class="cls-4" d="M98.42,18.9c2.65-2.72,3.25,9.77,3.25,9.77"/>
+    <path class="cls-4" d="M103.69,14.17c2.65-2.72,3.25,9.77,3.25,9.77"/>
+    <path class="cls-4" d="M109.46,9.09c2.65-2.72,3.25,9.77,3.25,9.77"/>
+    <path class="cls-4" d="M94.62,33.92c8.51-.51,7.56,2.55,7.56,2.55"/>
+    <path class="cls-4" d="M101.52,28.99c8.51-.51,7.56,2.55,7.56,2.55"/>
+    <path class="cls-4" d="M107.28,24c8.51-.51,7.56,2.55,7.56,2.55"/>
+    <path class="cls-4" d="M112.15,18.92c8.51-.51,7.56,2.55,7.56,2.55"/>
+    <ellipse class="cls-5" cx="117.59" cy="4.52" rx="6.51" ry="1" transform="translate(8.61 48.93) rotate(-24.37)"/>
+  </g>
+  <g id="grapes">
+    <circle class="cls-3" cx="121.76" cy="90.65" r="30.06"/>
+    <circle class="cls-3" cx="74.33" cy="90.65" r="30.06"/>
+    <circle class="cls-3" cx="35.96" cy="108.89" r="30.06"/>
+    <circle class="cls-3" cx="74.33" cy="109.46" r="30.06"/>
+    <circle class="cls-3" cx="114.42" cy="109.46" r="30.06"/>
+    <circle class="cls-3" cx="154.92" cy="110.26" r="30.06"/>
+    <circle class="cls-3" cx="31.56" cy="139.52" r="30.06"/>
+    <circle class="cls-3" cx="54.29" cy="139.52" r="30.06"/>
+    <circle class="cls-3" cx="91.69" cy="142.25" r="30.06"/>
+    <circle class="cls-3" cx="127.15" cy="142.25" r="30.06"/>
+    <circle class="cls-3" cx="159.93" cy="150.78" r="30.06"/>
+    <circle class="cls-1" cx="56.1" cy="178.23" r="30.06"/>
+    <circle class="cls-1" cx="88.53" cy="180.84" r="30.06"/>
+    <circle class="cls-1" cx="129.87" cy="184.03" r="30.06"/>
+    <circle class="cls-1" cx="163.13" cy="192.67" r="30.06"/>
+    <circle class="cls-1" cx="84.36" cy="218.63" r="30.06"/>
+    <circle class="cls-1" cx="121.76" cy="220.46" r="30.06"/>
+    <circle class="cls-1" cx="163.13" cy="225.46" r="30.06"/>
+    <circle class="cls-1" cx="108.05" cy="252.8" r="30.06"/>
+    <circle class="cls-1" cx="151.82" cy="257.79" r="30.06"/>
+    <circle class="cls-1" cx="138.11" cy="287.86" r="30.06"/>
+  </g>
+  <circle id="grapewhitecircle" class="cls-5" cx="130.04" cy="302.1" r="8.28"/>
+</svg>
