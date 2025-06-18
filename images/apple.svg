@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="apple" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 456.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #79c143;
+      }
+
+      .cls-3 {
+        fill: #95c940;
+      }
+    </style>
+  </defs>
+  <path id="stick" class="cls-1" d="M177.63,73.56C185.93,25.06,209.31,6.83,220.23.82c2.06-1.13,4.41.93,3.56,3.12-11.18,28.91-60.62,154.06-46.17,69.61Z"/>
+  <g id="Layer_2" data-name="Layer 2">
+    <path id="blackstroke" class="cls-1" d="M182.5,456.38C82.15,456.38.5,374.73.5,274.38S82.15,92.38,182.5,92.38s182,81.65,182,182-81.64,182-182,182Z"/>
+    <circle id="applecirclebig" class="cls-2" cx="182.5" cy="274.38" r="172"/>
+    <circle id="applecirclesmall" class="cls-3" cx="246.75" cy="199.63" r="58.25"/>
+  </g>
+</svg>

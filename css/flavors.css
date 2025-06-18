@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #95d90c; 
+  padding: 40px 0;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-box {
+  background-color: #9b00ff;
+  border-radius: 50px;
+}
+
+.logo-img {
+  width: 120px;
+  padding: 10px 0 10px 0;
+}
+
+.nav-box {
+  background-color: #9b00ff; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+footer {
+    background-color: #95d90c;
+    padding: 10px;
+}
+
+.footer_div {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_box {
+  background-color: #9b00ff;
+  border-radius: 50px;
+}
+
+.footer-logo {
+  width: 120px;
+  padding: 10px 0 10px 0;
+}
+
+#flavor_img {
+    max-width: 600px;
+}
+
+.main_flavors {
+    padding: 40px;
+    display: flex;
+}
+
+.flavor_info h2 {
+    text-align: center;
+    color: #9b00ff;
+    font-size: 30px;
+}
+
+.flavor_info p {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #9b00ff;
+    border-radius: 50px;
+    border: #95d90c 5px solid;
+    padding: 20px;
+}
+
+.h2main {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 60px;
+}
+
+#svgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px
+}
+
+#svgs div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  background: #95d90c;
+  border: #9b00ff 5px solid;
+}
+
+#svgs h3 {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+#grape {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#grape:hover {
+  animation: move-up-down 0.5s ease-in-out;
+}
+
+@keyframes move-up-down {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(10px); } 
+  100% { transform: translateY(0); }
+}
+
+#circleorange {
+  transition: transform 0.6s ease;
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(0deg);
+}
+
+#orange:hover #circleorange {
+  transform: rotate(360deg);
+}
+
+#strawberry {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#strawberry:hover #strawberryfoundation {
+  animation: scale-up-down 0.5s ease-in-out;
+}
+
+@keyframes scale-up-down {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+#applecircle {
+  transition: transform 0.6s ease;
+  transform-box: fill-box;
+}
+
+#apple:hover #applecirclebig {
+  fill: rgb(225, 17, 17);
+}
+
+#apple:hover #applecirclesmall {
+  fill: rgb(255, 199, 252);
+}
+
+#cherry {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#cherry:hover {
+  animation: scale-down 0.5s ease-in-out;
+}
+
+@keyframes scale-down {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(0.8); } 
+  100% { transform: scale(1); }
+}
+
+#watermelon {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+#watermelon:hover {
+  animation: wiggle 1s ease-in-out;
+}
+
+@keyframes wiggle {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(5deg); }
+  75%  { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+#watermelon1 svg {
+  padding-top: 140px;
+}
+
+
+
