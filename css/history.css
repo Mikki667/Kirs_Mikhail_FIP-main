@@ -106,3 +106,25 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
+.poster2_img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#poster2_img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#poster2_img2 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main_posters {
+    padding: 40px;
+}

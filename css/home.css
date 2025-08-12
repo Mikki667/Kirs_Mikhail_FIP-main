@@ -39,6 +39,65 @@ header {
   font-size: 20px;
 }
 
+.video {
+    margin: 32px 0;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(7, 7, 7, 0.25);
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1.5px solid #ddd;
+  border-radius: 12px;
+  background-color: #95d90c; 
+  box-shadow: 0 2px 6px rgba(7, 7, 7, 0.25); 
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.products:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.products img {
+  width: 80%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.buy-btn {
+  padding: 10px 20px;
+  background-color: #9b00ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 90%;
+  max-width: 220px;
+  text-align: center;
+}
+
+.buy-btn:hover {
+  background-color: #e62e5c;
+  transform: scale(1.05);
+}
+
 footer {
     background-color: #95d90c;
     padding: 10px;
@@ -57,50 +116,4 @@ footer {
 .footer-logo {
   width: 120px;
   padding: 10px 0 10px 0;
-}
-
-#Welcome h2 {
-    padding: 20px;
-    color: #9b00ff;
-    background-color: #ffffff;
-    border: #95d90c 5px solid;
-    border-radius: 50px;
-    text-align: center;
-}
-
-.poster2_img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-#poster2_img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-#poster2_img2 {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.main_posters {
-    padding: 40px;
-}
-
-.brand_info h2 {
-    text-align: center;
-    color: #9b00ff;
-    font-size: 30px;
-}
-
-.brand_info p {
-    color: #ffffff;
-    font-size: 18px;
-    background-color: #9b00ff;
-    border-radius: 50px;
-    border: #95d90c 5px solid;
-    padding: 20px;
 }
