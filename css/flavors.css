@@ -202,5 +202,13 @@ footer {
   padding-top: 140px;
 }
 
+#Welcome h2 {
+    padding: 20px;
+    color: #9b00ff;
+    background-color: #ffffff;
+    border: #95d90c 5px solid;
+    border-radius: 50px;
+    text-align: center;
+}
 
 

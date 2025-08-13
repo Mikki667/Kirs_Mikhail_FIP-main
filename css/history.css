@@ -42,6 +42,7 @@ header {
 footer {
     background-color: #95d90c;
     padding: 10px;
+    margin-top: 32px ;
 }
 
 .footer_div {
@@ -68,63 +69,53 @@ footer {
     text-align: center;
 }
 
-#past_img {
-    max-width: 600px;
+.The_past {
+  background-color: #95d90c;
+  padding: 20px;
+  border: #9b00ff 10px solid;
 }
 
-#past_img2 {
-    max-width: 600px;
+.past_img_1 img {
+  width: 100%;
+  height: auto;
+  max-width: 400px; 
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
 }
 
-#new_img {
-    max-width: 600px;
-}
-
-.how_it_happened {
-    padding: 40px;
-    display: flex;
-    
-}
-
-.info h2 {
-    text-align: center;
-    color: #9b00ff;
-    font-size: 30px;
-}
-
-.info p {
-    color: #ffffff;
-    font-size: 18px;
-    background-color: #9b00ff;
+.hero_info {
+  background-color: #ffffff;
+  padding: 0px 10px 0px 10px;
     border-radius: 50px;
-    border: #95d90c 5px solid;
-    padding: 20px;
+    border: #9b00ff 5px solid;
 }
 
-.thepast {
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
+.hero_info p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 30px 0;
 }
 
-.poster2_img {
-  width: 100%;
-  height: auto;
-  display: block;
+.old_photo {
+  margin: 32px 0;
 }
 
-#poster2_img {
-  width: 100%;
-  height: auto;
-  display: block;
+.photo-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(7, 7, 7, 0.25);
 }
 
-#poster2_img2 {
-  width: 100%;
-  height: auto;
-  display: block;
+.video {
+    margin: 32px 0;
 }
 
-.main_posters {
-    padding: 40px;
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(7, 7, 7, 0.25);
 }
