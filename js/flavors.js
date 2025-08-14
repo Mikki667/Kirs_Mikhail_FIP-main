@@ -1,14 +1,13 @@
 console.log("JavaScript File is linked");
 
 // variables
-const buyButtons = document.querySelectorAll(".buy-btn");
 const logoImage = document.querySelector(".logo-img");
 const socialIcons = document.querySelectorAll(".social-icon");
+const svgs = document.querySelectorAll("#svgs svg")
+
+console.log(svgs);
 
 // functions
-function handleBuyClick(event) {
-console.log("Button clicked:", event.target.textContent);
-}
 
 function handleLogoClick() {
 console.log("Logo was clicked");
@@ -18,12 +17,16 @@ function handleSocialClick(event) {
     console.log("Social media clicked:", event.target.alt);
 }
 
+function logId() {
+    console.log(this.id);
+}
+
 // event listeners
-buyButtons.forEach(button => {
-    button.addEventListener("click", handleBuyClick);
-});
+
 logoImage.addEventListener("click", handleLogoClick);
 
 socialIcons.forEach(icon => {
     icon.addEventListener("click", handleSocialClick);
 });
+
+svgs.forEach(svg => svg.addEventListener("click", logId));

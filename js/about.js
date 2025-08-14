@@ -1,14 +1,10 @@
 console.log("JavaScript File is linked");
 
 // variables
-const buyButtons = document.querySelectorAll(".buy-btn");
 const logoImage = document.querySelector(".logo-img");
 const socialIcons = document.querySelectorAll(".social-icon");
 
 // functions
-function handleBuyClick(event) {
-console.log("Button clicked:", event.target.textContent);
-}
 
 function handleLogoClick() {
 console.log("Logo was clicked");
@@ -19,9 +15,7 @@ function handleSocialClick(event) {
 }
 
 // event listeners
-buyButtons.forEach(button => {
-    button.addEventListener("click", handleBuyClick);
-});
+
 logoImage.addEventListener("click", handleLogoClick);
 
 socialIcons.forEach(icon => {
